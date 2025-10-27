@@ -4,24 +4,19 @@ import Card, { CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
 export default function About() {
   const team = [
     {
-      name: "Dr. Priya Sharma",
-      role: "Chief Mental Health Officer",
-      description: "Clinical psychologist with 15+ years of experience in adolescent mental health."
+      name: "Rudransh Mishra",
+      role: "Founder & CEO",
+      description: "Founder & CEO of MANASA. A passionate entrepreneur and mental health researcher."
     },
     {
-      name: "Rajesh Kumar",
-      role: "Technical Lead",
-      description: "AI/ML expert specializing in healthcare applications and digital therapeutics."
+      name: "Abhijeet Kumar",
+      role: "Co-Founder & CTO",
+      description: "Co-Founder & CTO of MANASA. An AI/ML expert and a software engineer."
     },
     {
-      name: "Ananya Reddy",
-      role: "Product Manager",
-      description: "Former educator passionate about student well-being and educational technology."
-    },
-    {
-      name: "Dr. Vikram Singh",
-      role: "Research Director",
-      description: "Neuroscientist researching neuroplasticity and cognitive behavioral interventions."
+      name: "Ayan Mondal",
+      role: "Co-Founder & Mentor",
+      description: "Co-Founder & Mentor of MANASA. A mental health advocate and a mentor."
     }
   ];
 
@@ -142,7 +137,7 @@ export default function About() {
           <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
             A diverse team of mental health professionals, technologists, and educators committed to transforming student well-being
           </p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto align-middle justify-center items-center">
             {team.map((member, index) => (
               <Card key={index} hover>
                 <CardHeader>
