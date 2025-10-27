@@ -21,7 +21,7 @@ export default function Terms() {
 
               <h2 className="text-2xl font-bold text-blue-600 mt-8 mb-4">1. Acceptance of Terms</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                By accessing or using MANASA's platform, you agree to be bound by these Terms of Service and our Privacy Policy.
+                By accessing or using MANASA&apos;s platform, you agree to be bound by these Terms of Service and our Privacy Policy.
                 If you do not agree to these terms, please do not use our services.
               </p>
 
@@ -81,8 +81,8 @@ export default function Terms() {
                 <li>Harass, abuse, or harm others</li>
                 <li>Impersonate any person or entity</li>
                 <li>Share false or misleading information</li>
-                <li>Violate others' privacy or intellectual property rights</li>
-                <li>Interfere with or disrupt the platform's operation</li>
+                <li>Violate others&apos; privacy or intellectual property rights</li>
+                <li>Interfere with or disrupt the platform&apos;s operation</li>
                 <li>Attempt to gain unauthorized access to our systems</li>
                 <li>Use automated systems to access the platform without permission</li>
                 <li>Share your account credentials with others</li>
@@ -171,7 +171,7 @@ export default function Terms() {
 
               <h2 className="text-2xl font-bold text-blue-600 mt-8 mb-4">10. Disclaimer of Warranties</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                MANASA is provided "as is" and "as available." We do not warrant that:
+                MANASA is provided &quot;as is&quot; and &quot;as available.&quot; We do not warrant that:
               </p>
               <ul className="list-disc pl-6 text-gray-700 mb-4 space-y-2">
                 <li>The service will be uninterrupted or error-free</li>

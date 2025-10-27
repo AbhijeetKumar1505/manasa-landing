@@ -29,7 +29,7 @@ export default function About() {
             About MANASA
           </h1>
           <p className="text-xl text-gray-600 text-center max-w-3xl mx-auto">
-            Building India's first comprehensive digital ecosystem for student mental health and well-being
+            Building India&apos;s first comprehensive digital ecosystem for student mental health and well-being
           </p>
         </div>
       </section>

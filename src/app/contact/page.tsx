@@ -124,7 +124,7 @@ export default function Contact() {
             Get In Touch
           </h1>
           <p className="text-xl text-gray-600 text-center max-w-3xl mx-auto">
-            Have questions or need support? We're here to help. Reach out to us and we'll respond as soon as possible.
+            Have questions or need support? We&apos;re here to help. Reach out to us and we&apos;ll respond as soon as possible.
           </p>
         </div>
       </section>
@@ -164,7 +164,7 @@ export default function Contact() {
 
               {isSubmitted && (
                 <div className="mb-6 p-4 bg-green-100 border border-green-400 text-green-700 rounded-lg">
-                  Thank you for contacting us! We'll get back to you soon.
+                  Thank you for contacting us! We&apos;ll get back to you soon.
                 </div>
               )}
 

@@ -129,7 +129,7 @@ export default function GetStarted() {
           </div>
           <h1 className="text-3xl font-bold text-gray-900 mb-4">Welcome to MANASA!</h1>
           <p className="text-lg text-gray-600 mb-6">
-            Thank you for registering. We've sent a confirmation email to <strong>{formData.email}</strong>.
+            Thank you for registering. We&apos;ve sent a confirmation email to <strong>{formData.email}</strong>.
           </p>
           <p className="text-gray-600 mb-8">
             Our team will review your application and get back to you within 24-48 hours with next steps.
@@ -170,12 +170,12 @@ export default function GetStarted() {
             </h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {userTypes.map((user) => (
-                <Card
+                <div
                   key={user.type}
                   className="cursor-pointer hover:border-blue-500 border-2 border-transparent transition"
                   onClick={() => setSelectedType(user.type)}
-                  hover
                 >
+                  <Card hover>
                   <div className="flex justify-center mb-4">
                     {user.icon}
                   </div>
@@ -191,7 +191,8 @@ export default function GetStarted() {
                       ))}
                     </div>
                   </CardContent>
-                </Card>
+                  </Card>
+                </div>
               ))}
             </div>
           </div>

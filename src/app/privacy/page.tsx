@@ -145,7 +145,7 @@ export default function Privacy() {
                 except where we are required to retain it by law.
               </p>
 
-              <h2 className="text-2xl font-bold text-blue-600 mt-8 mb-4">8. Children's Privacy</h2>
+              <h2 className="text-2xl font-bold text-blue-600 mt-8 mb-4">8. Children&apos;s Privacy</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 MANASA is designed for students aged 12 and above. For users under 18, we recommend parental involvement,
                 though we maintain confidentiality as appropriate. We do not knowingly collect information from children
@@ -164,7 +164,7 @@ export default function Privacy() {
               </p>
               <ul className="list-disc pl-6 text-gray-700 mb-4 space-y-2">
                 <li>Posting the new Privacy Policy on this page</li>
-                <li>Updating the "Last Updated" date</li>
+                <li>Updating the &quot;Last Updated&quot; date</li>
                 <li>Sending you an email notification (for significant changes)</li>
               </ul>
 

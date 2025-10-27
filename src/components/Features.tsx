@@ -70,7 +70,7 @@ export default function Features() {
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold mb-4 text-blue-600">Key Features & Modules</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            MANASA's comprehensive suite of tools and resources designed to support every aspect of student well-being.
+            MANASA&apos;s comprehensive suite of tools and resources designed to support every aspect of student well-being.
           </p>
         </div>
 
