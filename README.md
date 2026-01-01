@@ -1,6 +1,6 @@
-# MANASA - Mental Health Platform for Students
+# Neurokind - Mental Health Platform for Students
 
-A Neuro-Holistic Digital Ecosystem for Student Well-being in India. MANASA provides comprehensive mental health support through AI-powered tools, professional counseling, and evidence-based practices tailored for Indian students.
+A Neuro-Holistic Digital Ecosystem for Student Well-being in India. Neurokind provides comprehensive mental health support through AI-powered tools, professional counseling, and evidence-based practices tailored for Indian students.
 
 ## 🌟 Features
 
@@ -201,7 +201,7 @@ This project is proprietary and confidential. Unauthorized copying or distributi
 
 ## 📧 Contact
 
-- **Website:** [MANASA Platform](https://manasa.health)
+- **Website:** [Neurokind Platform](https://manasa.health)
 - **Email:** support@manasa.health
 - **Crisis Helpline:** +91 1800-XXX-XXXX
 

@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
@@ -20,8 +21,17 @@ export default function Header() {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="text-2xl font-bold text-blue-600">
-            MANASA
+          <Link href="/" className="flex items-center gap-3">
+            <Image
+              src="/logo.png"
+              alt="Neurokind Logo"
+              width={40}
+              height={40}
+              className="object-contain"
+            />
+            <span className="text-2xl font-bold text-blue-600">
+              Neurokind
+            </span>
           </Link>
 
           {/* Desktop Navigation */}

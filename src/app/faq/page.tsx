@@ -17,18 +17,18 @@ export default function FAQ() {
   const faqs: FAQItem[] = [
     {
       category: 'General',
-      question: 'What is MANASA?',
-      answer: 'MANASA is a comprehensive neuro-holistic digital ecosystem designed to support the mental health and well-being of Indian students. We combine AI-powered technology with evidence-based therapeutic practices and culturally-sensitive approaches to provide accessible mental health support.'
+      question: 'What is Neurokind?',
+      answer: 'Neurokind is a comprehensive neuro-holistic digital ecosystem designed to support the mental health and well-being of Indian students. We combine AI-powered technology with evidence-based therapeutic practices and culturally-sensitive approaches to provide accessible mental health support.'
     },
     {
       category: 'General',
-      question: 'Who can use MANASA?',
-      answer: 'MANASA is designed for students from grades 6-12 and college/university students. We also offer solutions for educational institutions and provide a platform for licensed mental health professionals to connect with students.'
+      question: 'Who can use Neurokind?',
+      answer: 'Neurokind is designed for students from grades 6-12 and college/university students. We also offer solutions for educational institutions and provide a platform for licensed mental health professionals to connect with students.'
     },
     {
       category: 'General',
-      question: 'Is MANASA available across India?',
-      answer: 'Yes, MANASA is available throughout India. Our platform is accessible via web and mobile apps, making mental health support available regardless of your location.'
+      question: 'Is Neurokind available across India?',
+      answer: 'Yes, Neurokind is available throughout India. Our platform is accessible via web and mobile apps, making mental health support available regardless of your location.'
     },
     {
       category: 'Privacy & Security',
@@ -37,7 +37,7 @@ export default function FAQ() {
     },
     {
       category: 'Privacy & Security',
-      question: 'Will my parents/school know I\'m using MANASA?',
+      question: 'Will my parents/school know I\'m using Neurokind?',
       answer: 'Your privacy is our priority. Unless you\'re in immediate danger or choose to share information, your usage and conversations remain private. For students under 18, we encourage family involvement but maintain confidentiality within legal boundaries.'
     },
     {
@@ -47,8 +47,8 @@ export default function FAQ() {
     },
     {
       category: 'Features & Services',
-      question: 'What services does MANASA offer?',
-      answer: 'MANASA offers mental health assessments, AI-powered personalized recommendations, meditation and mindfulness exercises, peer support communities, one-on-one counseling with licensed professionals, crisis intervention, educational resources, and progress tracking tools.'
+      question: 'What services does Neurokind offer?',
+      answer: 'Neurokind offers mental health assessments, AI-powered personalized recommendations, meditation and mindfulness exercises, peer support communities, one-on-one counseling with licensed professionals, crisis intervention, educational resources, and progress tracking tools.'
     },
     {
       category: 'Features & Services',
@@ -67,12 +67,12 @@ export default function FAQ() {
     },
     {
       category: 'Technical',
-      question: 'What devices can I use MANASA on?',
-      answer: 'MANASA is accessible on desktop computers, laptops, tablets, and smartphones. We have a web platform and mobile apps for both iOS and Android devices.'
+      question: 'What devices can I use Neurokind on?',
+      answer: 'Neurokind is accessible on desktop computers, laptops, tablets, and smartphones. We have a web platform and mobile apps for both iOS and Android devices.'
     },
     {
       category: 'Technical',
-      question: 'Do I need internet to use MANASA?',
+      question: 'Do I need internet to use Neurokind?',
       answer: 'Most features require internet connectivity. However, some resources like downloaded meditation guides and educational content can be accessed offline.'
     },
     {
@@ -87,7 +87,7 @@ export default function FAQ() {
     },
     {
       category: 'Pricing & Billing',
-      question: 'How much does MANASA cost?',
+      question: 'How much does Neurokind cost?',
       answer: 'We offer a Free plan (₹0), Student Plus (₹299/month), and Premium (₹599/month). All paid plans come with a 7-day free trial. We also offer annual plans with discounted rates.'
     },
     {
@@ -107,7 +107,7 @@ export default function FAQ() {
     },
     {
       category: 'For Institutions',
-      question: 'Can schools and colleges use MANASA?',
+      question: 'Can schools and colleges use Neurokind?',
       answer: 'Yes! We offer institutional plans that provide mental health support across entire schools or colleges. This includes student and staff dashboards, analytics, training programs, and more.'
     },
     {
@@ -136,7 +136,7 @@ export default function FAQ() {
             Frequently Asked Questions
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Find answers to common questions about MANASA and our services
+            Find answers to common questions about Neurokind and our services
           </p>
         </div>
       </section>

@@ -6,7 +6,7 @@ export default function CallToAction() {
       <div className="container mx-auto px-6 text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Student Mental Health?</h2>
         <p className="text-xl mb-10 max-w-3xl mx-auto opacity-90">
-          Join MANASA today and be part of the movement to support student well-being across India.
+          Join Neurokind today and be part of the movement to support student well-being across India.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <Link 

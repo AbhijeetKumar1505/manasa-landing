@@ -21,7 +21,7 @@ export default function Privacy() {
 
               <h2 className="text-2xl font-bold text-blue-600 mt-8 mb-4">1. Introduction</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Welcome to MANASA. We are committed to protecting your privacy and ensuring the security of your personal information.
+                Welcome to Neurokind. We are committed to protecting your privacy and ensuring the security of your personal information.
                 This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our platform.
               </p>
 
@@ -147,7 +147,7 @@ export default function Privacy() {
 
               <h2 className="text-2xl font-bold text-blue-600 mt-8 mb-4">8. Children&apos;s Privacy</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                MANASA is designed for students aged 12 and above. For users under 18, we recommend parental involvement,
+                Neurokind is designed for students aged 12 and above. For users under 18, we recommend parental involvement,
                 though we maintain confidentiality as appropriate. We do not knowingly collect information from children
                 under 12 without parental consent.
               </p>
@@ -176,7 +176,7 @@ export default function Privacy() {
               <div className="bg-blue-50 p-6 rounded-lg mb-4">
                 <p className="text-gray-700 mb-2"><strong>Email:</strong> privacy@manasa.health</p>
                 <p className="text-gray-700 mb-2"><strong>Phone:</strong> +91 1800-XXX-XXXX</p>
-                <p className="text-gray-700"><strong>Address:</strong> MANASA Health Tech Pvt. Ltd., Bangalore, Karnataka, India</p>
+                <p className="text-gray-700"><strong>Address:</strong> Neurokind Health Tech Pvt. Ltd., Bangalore, Karnataka, India</p>
               </div>
 
               <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 mt-8">

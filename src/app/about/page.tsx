@@ -1,22 +1,23 @@
 import { FaLightbulb, FaBullseye, FaHandsHelping, FaGraduationCap } from 'react-icons/fa';
 import Card, { CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
+import Image from 'next/image';
 
 export default function About() {
   const team = [
     {
       name: "Rudransh Mishra",
       role: "Founder & CEO",
-      description: "Founder & CEO of MANASA. A passionate entrepreneur and mental health researcher."
+      description: "Founder & CEO of Neurokind. A passionate entrepreneur and mental health researcher."
     },
     {
       name: "Abhijeet Kumar",
       role: "Co-Founder & CTO",
-      description: "Co-Founder & CTO of MANASA. An AI/ML expert and a software engineer."
+      description: "Co-Founder & CTO of Neurokind. An AI/ML expert and a software engineer."
     },
     {
       name: "Ayan Mondal",
       role: "Co-Founder & Mentor",
-      description: "Co-Founder & Mentor of MANASA. A mental health advocate and a mentor."
+      description: "Co-Founder & Mentor of Neurokind. A mental health advocate and a mentor."
     }
   ];
 
@@ -26,7 +27,7 @@ export default function About() {
       <section className="bg-gradient-to-b from-blue-50 to-white py-16">
         <div className="container mx-auto px-6">
           <h1 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-6">
-            About MANASA
+            About Neurokind
           </h1>
           <p className="text-xl text-gray-600 text-center max-w-3xl mx-auto">
             Building India&apos;s first comprehensive digital ecosystem for student mental health and well-being
@@ -41,7 +42,7 @@ export default function About() {
             <h2 className="text-3xl font-bold text-blue-600 mb-6">Our Story</h2>
             <div className="prose prose-lg text-gray-700 space-y-4">
               <p>
-                MANASA was born from a profound understanding of the mental health crisis affecting Indian students.
+                Neurokind was born from a profound understanding of the mental health crisis affecting Indian students.
                 In a nation where academic pressure and social expectations often overshadow well-being, we recognized
                 the urgent need for accessible, culturally-relevant mental health support.
               </p>
@@ -52,7 +53,7 @@ export default function About() {
               </p>
               <p>
                 By combining cutting-edge technology with evidence-based mental health practices and culturally-rooted
-                approaches, MANASA aims to democratize access to mental health support for every student in India.
+                approaches, Neurokind aims to democratize access to mental health support for every student in India.
               </p>
             </div>
           </div>
@@ -99,7 +100,7 @@ export default function About() {
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <FaHandsHelping className="text-3xl text-blue-600" />
               </div>
-              <h3 className="font-bold text-lg mb-2">Accessibility</h3>
+              <h3 className="font-bold text-blue-600 mb-2">Accessibility</h3>
               <p className="text-gray-600 text-sm">Making mental health support available to all students regardless of location or economic background</p>
             </div>
 
@@ -107,7 +108,7 @@ export default function About() {
               <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <FaLightbulb className="text-3xl text-green-600" />
               </div>
-              <h3 className="font-bold text-lg mb-2">Evidence-Based</h3>
+              <h3 className="font-bold text-green-600 mb-2">Evidence-Based</h3>
               <p className="text-gray-600 text-sm">Grounding our approach in scientific research and proven therapeutic methodologies</p>
             </div>
 
@@ -115,7 +116,7 @@ export default function About() {
               <div className="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <FaGraduationCap className="text-3xl text-purple-600" />
               </div>
-              <h3 className="font-bold text-lg mb-2">Cultural Sensitivity</h3>
+              <h3 className="font-bold text-purple-600 mb-2">Cultural Sensitivity</h3>
               <p className="text-gray-600 text-sm">Respecting and incorporating Indian values, traditions, and family dynamics in our solutions</p>
             </div>
 
@@ -123,9 +124,59 @@ export default function About() {
               <div className="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <FaBullseye className="text-3xl text-yellow-600" />
               </div>
-              <h3 className="font-bold text-lg mb-2">Privacy & Safety</h3>
+              <h3 className="font-bold text-yellow-600 mb-2">Privacy & Safety</h3>
               <p className="text-gray-600 text-sm">Ensuring confidentiality and creating a safe space for students to seek help without judgment</p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Collaborations */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-6">
+          <h2 className="text-3xl font-bold text-center text-blue-600 mb-12">Our Collaborations</h2>
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <Card className="bg-white border border-blue-100" hover>
+              <CardHeader>
+                <div className="flex justify-center mb-4">
+                  <Image
+                    src="/youmat.png"
+                    alt="Youmat Logo"
+                    width={150}
+                    height={60}
+                    style={{ borderRadius: '50%' }}
+                    className="object-contain"
+                  />
+                </div>
+                <CardTitle className="text-center text-2xl text-blue-600">Youmat</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-700 text-center">
+                  Partnering with Youmat to enhance student well-being and mental health support through innovative solutions for mental health awareness and support.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-white border border-blue-100" hover>
+              <CardHeader>
+                <div className="flex justify-center mb-4">
+                  <Image
+                    src="/ments2024_logo.jpg"
+                    alt="Ments Logo"
+                    width={150}
+                    height={60}
+                    style={{ borderRadius: '50%' }}
+                    className="object-contain"
+                  />
+                </div>
+                <CardTitle className="text-center text-2xl text-blue-600">Ments</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-700 text-center">
+                  Collaborating with Ments to get community support to grow in marketing and outreach.
+                </p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>

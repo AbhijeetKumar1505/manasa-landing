@@ -114,7 +114,7 @@ export default function Blog() {
       <section className="bg-gradient-to-b from-blue-50 to-white py-16">
         <div className="container mx-auto px-6 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            MANASA Blog
+            Neurokind Blog
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Insights, tips, and resources on mental health, well-being, and student life

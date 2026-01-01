@@ -6,6 +6,7 @@ import Input from '@/components/ui/Input';
 import Button from '@/components/ui/Button';
 import Card, { CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
 import Badge from '@/components/ui/Badge';
+import { submitWaitlistEntry } from './actions';
 
 type UserType = 'student' | 'institution' | 'counselor' | null;
 
@@ -22,6 +23,7 @@ export default function GetStarted() {
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
 
   const userTypes = [
     {
@@ -35,7 +37,7 @@ export default function GetStarted() {
       type: 'institution' as UserType,
       icon: <FaSchool className="text-5xl text-green-600" />,
       title: 'School/College',
-      description: 'Implement MANASA across your institution to support student well-being',
+      description: 'Implement Neurokind across your institution to support student well-being',
       benefits: ['Institution-wide dashboard', 'Student analytics', 'Professional training']
     },
     {
@@ -92,18 +94,35 @@ export default function GetStarted() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    if (!validateForm()) {
+    if (!validateForm() || !selectedType) {
       return;
     }
 
     setIsSubmitting(true);
+    setSubmitError(null);
 
-    // Simulate API call
-    setTimeout(() => {
-      console.log('Registration submitted:', { selectedType, ...formData });
+    try {
+      const result = await submitWaitlistEntry({
+        userType: selectedType,
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        institution: formData.institution || undefined,
+        grade: formData.grade || undefined,
+        interest: formData.interest || undefined,
+      });
+
+      if (result.success) {
+        setIsSubmitted(true);
+      } else {
+        setSubmitError(result.error || 'Failed to submit registration');
+        setIsSubmitting(false);
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      setSubmitError('An unexpected error occurred. Please try again later.');
       setIsSubmitting(false);
-      setIsSubmitted(true);
-    }, 1500);
+    }
   };
 
   const resetForm = () => {
@@ -118,6 +137,7 @@ export default function GetStarted() {
     });
     setErrors({});
     setIsSubmitted(false);
+    setSubmitError(null);
   };
 
   if (isSubmitted) {
@@ -127,7 +147,7 @@ export default function GetStarted() {
           <div className="flex justify-center mb-6">
             <FaCheckCircle className="text-6xl text-green-500" />
           </div>
-          <h1 className="text-3xl font-bold text-gray-900 mb-4">Welcome to MANASA!</h1>
+          <h1 className="text-3xl font-bold text-gray-900 mb-4">Welcome to Neurokind!</h1>
           <p className="text-lg text-gray-600 mb-6">
             Thank you for registering. We&apos;ve sent a confirmation email to <strong>{formData.email}</strong>.
           </p>
@@ -153,7 +173,7 @@ export default function GetStarted() {
       <section className="bg-gradient-to-b from-blue-50 to-white py-16">
         <div className="container mx-auto px-6">
           <h1 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-6">
-            Get Started with MANASA
+            Get Started with Neurokind
           </h1>
           <p className="text-xl text-gray-600 text-center max-w-3xl mx-auto">
             Join thousands of students, institutions, and counselors on the journey to better mental health
@@ -220,6 +240,11 @@ export default function GetStarted() {
                   <CardTitle className="text-2xl text-blue-600">Registration Form</CardTitle>
                 </CardHeader>
                 <CardContent>
+                  {submitError && (
+                    <div className="mb-6 p-4 bg-red-100 border border-red-400 text-red-700 rounded-lg">
+                      {submitError}
+                    </div>
+                  )}
                   <form onSubmit={handleSubmit} className="space-y-6">
                     <Input
                       label="Full Name *"

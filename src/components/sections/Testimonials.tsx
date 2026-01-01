@@ -8,7 +8,7 @@ export default function Testimonials() {
       role: 'Engineering Student',
       location: 'Mumbai',
       rating: 5,
-      text: 'MANASA has been a lifesaver during my preparation for competitive exams. The stress management tools and counseling sessions helped me maintain my mental health without compromising my studies.',
+      text: 'Neurokind has been a lifesaver during my preparation for competitive exams. The stress management tools and counseling sessions helped me maintain my mental health without compromising my studies.',
       image: null
     },
     {
@@ -24,7 +24,7 @@ export default function Testimonials() {
       role: 'Medical Student',
       location: 'Bangalore',
       rating: 5,
-      text: 'The meditation exercises and CBT tools have significantly improved my sleep and reduced my exam anxiety. MANASA understands the unique pressures Indian students face.',
+      text: 'The meditation exercises and CBT tools have significantly improved my sleep and reduced my exam anxiety. Neurokind understands the unique pressures Indian students face.',
       image: null
     },
     {
@@ -32,7 +32,7 @@ export default function Testimonials() {
       role: 'School Counselor',
       location: 'Pune',
       rating: 5,
-      text: 'As a school counselor, I\'ve seen firsthand how MANASA has transformed our students\' well-being. The platform provides exactly what our education system has been missing.',
+      text: 'As a school counselor, I\'ve seen firsthand how Neurokind has transformed our students\' well-being. The platform provides exactly what our education system has been missing.',
       image: null
     },
     {
@@ -48,7 +48,7 @@ export default function Testimonials() {
       role: 'Engineering Graduate',
       location: 'Hyderabad',
       rating: 5,
-      text: 'MANASA helped me through my toughest semester. The personalized wellness plan and progress tracking kept me motivated and helped me build healthy habits that I still follow.',
+      text: 'Neurokind helped me through my toughest semester. The personalized wellness plan and progress tracking kept me motivated and helped me build healthy habits that I still follow.',
       image: null
     }
   ];
@@ -59,7 +59,7 @@ export default function Testimonials() {
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold mb-4 text-blue-600">What Students Say</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Real stories from students who have transformed their mental health journey with MANASA
+            Real stories from students who have transformed their mental health journey with Neurokind
           </p>
         </div>
 

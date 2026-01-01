@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section className="bg-gradient-to-b from-blue-50 to-white py-20">
       <div className="container mx-auto px-6 text-center">
-        <h1 className="text-5xl font-bold text-gray-900 mb-6">MANASA</h1>
+        <h1 className="text-5xl font-bold text-gray-900 mb-6">Neurokind</h1>
         <h2 className="text-2xl text-gray-700 mb-8">A Neuro-Holistic Digital Ecosystem for Student Well-being in India</h2>
         <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-10">
           Addressing the profound mental health crisis among Indian students with a comprehensive, AI-powered platform that fosters adaptive neuroplasticity and holistic well-being.

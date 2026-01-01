@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MANASA - Neuro-Holistic Digital Ecosystem for Student Well-being",
+  title: "Neurokind - Neuro-Holistic Digital Ecosystem for Student Well-being",
   description: "Addressing the profound mental health crisis among Indian students with a comprehensive, AI-powered platform that fosters adaptive neuroplasticity and holistic well-being.",
 };
 
